@@ -1,0 +1,126 @@
+(footprint "IND-SMD_L4.4-W4.2_BCIHP0412SC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "IND-SMD_L4.4-W4.2_BCIHP0412SC footprint")
+	(tags "IND-SMD_L4.4-W4.2_BCIHP0412SC footprint C2921170 PSPMAA0603-100M-ANF")
+	(property "Reference" "REF**"
+		(at 0 -4.1 0)
+		(layer "F.SilkS")
+		(uuid "f6787f1f-685d-4ba0-8378-19f33c4cb85c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND-SMD_L4.4-W4.2_BCIHP0412SC"
+		(at 0 4.1 0)
+		(layer "F.Fab")
+		(uuid "ea89a565-16d5-466d-97ea-9d0519170d35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee553122-ad63-4495-9196-78e4faae4fa6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e589526-d8e4-4c25-b6cf-0695cafa4a74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "PSPMAA0603-100M-ANF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0091f37e-a4a8-4fd6-8cc9-249b5432af1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.725 -2.35)
+		(end 2.725 2.375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5288e5e9-dc7e-4924-8ba3-c5e606ac5247")
+	)
+	(fp_rect
+		(start -2.2 -2.099975)
+		(end 2.2 2.099975)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "a5ad58fd-5168-4b0e-a949-bb40e72d57ce")
+	)
+	(fp_text user "REF**"
+		(at 0 6.1 0)
+		(layer "F.Fab")
+		(uuid "1817ecb7-9671-40b7-9c8e-d4f6138fecf5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.85014 0)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(uuid "4cc3f43f-9159-43e1-b8e2-a1e55b2a5f2e")
+	)
+	(pad "2" smd rect
+		(at 1.85014 0)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(uuid "47dc4671-2e06-42ce-b2b2-abd85a112b6c")
+	)
+	(embedded_fonts no)
+	(model "packages3d/IND-SMD_L4.4-W4.2_BCIHP0412SC.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

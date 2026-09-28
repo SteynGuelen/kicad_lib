@@ -1,0 +1,238 @@
+(footprint "GS66516B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "GS66516B")
+	(tags "Transistor E-mode GaN (6-Pin)")
+	(property "Reference" "Q**"
+		(at 0 -5.969 0)
+		(layer "F.SilkS")
+		(uuid "5fb69382-a709-4054-af00-722455f12c9a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "GS66516B"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "87d76059-92b8-47a9-a1b6-b7d03b070161")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47e79c7d-1303-4a25-a993-aa6a6e043342")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f59adc8-8364-4b1b-8134-bad930a4decf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 4.69 -3.95)
+		(end 4.817 -4.077)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d90bd07f-65d2-4e31-b80c-a5d4eb91783d")
+	)
+	(fp_line
+		(start -5.842 -4.826)
+		(end 5.842 -4.826)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a595070-5fcc-453f-a3ac-c448b914476d")
+	)
+	(fp_line
+		(start -5.842 4.826)
+		(end -5.842 -4.826)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "25e6e09b-7c14-4862-a192-574425d7876f")
+	)
+	(fp_line
+		(start 5.842 -4.826)
+		(end 5.842 4.826)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c60f67c3-54ec-48c8-ba72-b7a9024fbc8f")
+	)
+	(fp_line
+		(start 5.842 4.826)
+		(end -5.842 4.826)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce7c3777-0781-4844-a1cb-cf30fc3a312e")
+	)
+	(fp_line
+		(start -5.51 -4.51)
+		(end 5.51 -4.51)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c80f3bbc-061c-4b50-ab68-1fd56ecfcaf1")
+	)
+	(fp_line
+		(start -5.51 4.51)
+		(end -5.51 -4.51)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f425a1e-a508-485a-b10c-6092eaa7b47a")
+	)
+	(fp_line
+		(start 5.51 -4.51)
+		(end 5.51 4.51)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e06d8626-4bc5-4a08-b577-be4bf1c97cad")
+	)
+	(fp_line
+		(start 5.51 4.51)
+		(end -5.51 4.51)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c3826c0-fc3b-4370-b56b-55ebea4303be")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "27498505-cc86-4d19-bd40-ee3a09b05636")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -3.94 90)
+		(size 1 7.87)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(clearance 0.1)
+		(uuid "8eb029a1-a624-43ca-b9e5-73dd710f2a18")
+	)
+	(pad "2" smd rect
+		(at -4.94 2.44 90)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(clearance 0.1)
+		(uuid "86e6a09d-9571-41fc-9165-c4044751c57f")
+	)
+	(pad "3" smd rect
+		(at -4.94 3.94 90)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(clearance 0.1)
+		(uuid "a7c08ed0-4246-49e7-8d8a-815310421da5")
+	)
+	(pad "4" smd custom
+		(at 0 1.85 90)
+		(size 5.17 7.87)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(clearance 0.1)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 2.585 2.601) (xy 2.585 5.44) (xy 0.415 5.44) (xy 0.415 2.601)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 2.585 -5.44) (xy 2.585 -3.161) (xy 0.415 -3.161) (xy 0.415 -5.44)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "c1de5c9d-b259-479e-84a0-e9fe4a795b88")
+	)
+	(pad "5" smd rect
+		(at 4.94 3.94 90)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(clearance 0.1)
+		(uuid "8e72f858-8049-4fc2-b05e-78e5ae61f446")
+	)
+	(pad "6" smd rect
+		(at 4.94 2.44 90)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(clearance 0.1)
+		(uuid "1e8a84fd-c345-49a5-b39e-2803b07a68be")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Steyn/OneDrive - TU Eindhoven/Documents/Projecten/kicad_lib/footprints/transistors.pretty/packages3d/GS66516B.STEP"
+		(offset
+			(xyz -4.550000122 -5.389999786 -8.180000182)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

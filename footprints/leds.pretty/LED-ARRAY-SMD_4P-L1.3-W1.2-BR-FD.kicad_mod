@@ -1,0 +1,145 @@
+(footprint "LED-ARRAY-SMD_4P-L1.3-W1.2-BR-FD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "999c4cbe-1bcf-4977-ba6c-e5996b7eee91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-ARRAY-SMD_4P-L1.3-W1.2-BR-FD"
+		(at 0 4.3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99ac0f63-574c-48b8-b543-b6602b988aa5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08065fea-7327-4844-b5a9-0f29c916e2a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c59ae72f-92aa-47ef-9538-ca6a67bec857")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.3 -0.6)
+		(end 0.615 -0.285)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0c2c547d-97e8-41e1-a675-94389487fbc8")
+	)
+	(fp_rect
+		(start -0.615 -0.6)
+		(end 0.615 0.6)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "290e4ee4-03be-427e-b0aa-175c9464575f")
+	)
+	(fp_rect
+		(start -0.8 -0.61)
+		(end 0.8 0.61)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5fb8161b-3edf-4d4f-b078-6304ba4335dd")
+	)
+	(fp_circle
+		(center 0.62 0.6)
+		(end 0.65 0.6)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "27a5806b-b1dc-4b88-b592-2da64fdf9b97")
+	)
+	(pad "1" smd rect
+		(at 0.47 0.3 90)
+		(size 0.35 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(clearance 0.05)
+		(uuid "a515ba7d-0b80-4475-8c01-395ed26b63c7")
+	)
+	(pad "2" smd roundrect
+		(at 0.47 -0.3 90)
+		(size 0.35 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.05)
+		(clearance 0.05)
+		(uuid "b44af5b2-1a61-42db-9391-7cad6ca02058")
+	)
+	(pad "3" smd roundrect
+		(at -0.47 -0.3 90)
+		(size 0.35 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.05)
+		(clearance 0.05)
+		(uuid "94a5dc08-64ab-4e25-bb21-2d4e4c0865e3")
+	)
+	(pad "4" smd roundrect
+		(at -0.47 0.3 90)
+		(size 0.35 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.05)
+		(clearance 0.05)
+		(uuid "32c58f0f-15cc-419f-be80-9cb664f3926d")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/steyn/OneDrive - TU Eindhoven/Documents/KiCad/library_test.3dshapes/LED-ARRAY-SMD_4P-L1.3-W1.2-BR-FD.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

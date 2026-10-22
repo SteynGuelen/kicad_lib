@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3c460c2b-c6b4-48ec-bb86-90c06fda59db")
+	(paper "A")
+	(title_block
+		(date "03-17-2025")
+		(rev "01")
+		(comment 1 "Steyn Guelen")
+		(comment 2 "In progress")
+	)
+	(lib_symbols)
+)

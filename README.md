@@ -16,27 +16,33 @@ Use KiCad 10 or newer for the complete collection. Some files were saved with Ki
 
    Alternatively, choose **Code → Download ZIP** on GitHub and extract it.
 
-2. In KiCad, open **Preferences → Configure Paths**. Add `KICAD_LIB` pointing to the absolute path of your `kicad_lib` folder.
+2. Open **Preferences → Manage Symbol Libraries**. Select **Global Libraries** to make the symbols available to all projects, or **Project Specific Libraries** for the current project. Click **Add existing library** and select the `.kicad_sym` files inside `symbols/`.
 
-3. Open **Preferences → Manage Symbol Libraries**. Select **Global Libraries** to make the symbols available to all projects, or **Project Specific Libraries** for the current project. Click **Add existing library** and select the `.kicad_sym` files inside `symbols/`.
+3. Open **Preferences → Manage Footprint Libraries**. Add the `.pretty` directories inside `footprints/` as existing libraries. Select directories, rather than the individual `.kicad_mod` files. Keep the directory names as library nicknames, for example `integrated_circuits` and `standards`.
 
-4. Open **Preferences → Manage Footprint Libraries**. Add the `.pretty` directories inside `footprints/` as existing libraries. Select directories, rather than the individual `.kicad_mod` files. Keep the directory names as library nicknames, for example `integrated_circuits` and `standards`.
+## Install the MPlab project template
 
-You can use paths such as `${KICAD_LIB}/symbols/integrated_circuits.kicad_sym` and `${KICAD_LIB}/footprints/integrated_circuits.pretty` in the library tables.
+The `templates/MPlab/` folder contains the MPlab project template, including its schematics, PCB, embedded drawing sheets, and template preview.
 
-## 3D models and footprint assignments
+1. In KiCad, open **Preferences → Configure Paths** and find `KICAD_USER_TEMPLATE_DIR`. This is your user template folder.
+2. Copy the entire `templates/MPlab/` folder into that folder. The resulting layout should be `<user template folder>/MPlab/meta/info.html`, with the project files directly inside `MPlab/`.
 
-Some footprints contain embedded 3D models; others reference external STEP files. Some existing references still use the original author’s absolute Windows paths. If a model is missing, open the footprint’s properties in the Footprint Editor, select **3D Models**, and replace its path with the matching file under `${KICAD_LIB}/3dmodels/` or the footprint library’s `packages3d/` directory.
+   For example, on this Mac the destination is:
 
-Some symbols also contain older or differently capitalized footprint library nicknames. If a footprint assignment cannot be resolved, use **Assign Footprints** in the Schematic Editor to select the corresponding footprint from your installed libraries.
+   ```text
+   /Users/steyn/Documents/KiCad/10.0/template/MPlab/
+   ```
 
-The corrected library name is `integrated_circuits`. Existing projects using the former spelling `intergrated_circuits` need their library paths and assignments updated.
+   If a copy already exists, back it up before replacing it.
+
+3. In KiCad’s Project Manager, choose **File → New Project from Template**, open **User Templates**, and select **MPLab**. Choose a new project name and location to create your own project from the template.
+
+See [KiCad’s template documentation](https://docs.kicad.org/10.0/en/kicad/kicad.pdf) for details about user template locations.
 
 ## Other assets
 
 - `design_blocks/`: reusable KiCad design-block libraries. Add the `.kicad_blocks` directory through KiCad’s design-block library manager.
 - `sheets/`: custom `.kicad_wks` drawing sheets. Select one through the schematic or PCB editor’s **Page Settings** dialog.
-- `3dmodels/`: external STEP models for footprint previews.
 
 ## Update
 

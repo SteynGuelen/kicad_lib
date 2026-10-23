@@ -42,7 +42,6 @@ See [KiCad’s template documentation](https://docs.kicad.org/10.0/en/kicad/kica
 ## Other assets
 
 - `design_blocks/`: reusable KiCad design-block libraries. Add the `.kicad_blocks` directory through KiCad’s design-block library manager.
-- `sheets/`: custom `.kicad_wks` drawing sheets. Select one through the schematic or PCB editor’s **Page Settings** dialog.
 
 ## Update
 
